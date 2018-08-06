@@ -54,14 +54,54 @@
 		110F1C14210F8A67002547EF /* LoginScreen */ = {
 			isa = PBXGroup;
 			children = (
-				110F1C15210F8A67002547EF /* AppDelegate.swift */,
-				110F1C17210F8A67002547EF /* ViewController.swift */,
-				110F1C19210F8A67002547EF /* Main.storyboard */,
-				110F1C1C210F8A67002547EF /* Assets.xcassets */,
-				110F1C1E210F8A67002547EF /* LaunchScreen.storyboard */,
-				110F1C21210F8A68002547EF /* Info.plist */,
+				1149045221180D5100343E3E /* MVC */,
+				1149045321180D5D00343E3E /* SupportingFiles */,
 			);
 			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		1149045221180D5100343E3E /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				110F1C15210F8A67002547EF /* AppDelegate.swift */,
+				1149045621180DB400343E3E /* Model */,
+				1149045421180D9500343E3E /* View */,
+				1149045521180D9C00343E3E /* Controller */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		1149045321180D5D00343E3E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				110F1C1C210F8A67002547EF /* Assets.xcassets */,
+				110F1C21210F8A68002547EF /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		1149045421180D9500343E3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				110F1C19210F8A67002547EF /* Main.storyboard */,
+				110F1C1E210F8A67002547EF /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1149045521180D9C00343E3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				110F1C17210F8A67002547EF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1149045621180DB400343E3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,7 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FD9XT59NY8;
-				INFOPLIST_FILE = LoginScreen/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LoginScreen/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +340,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FD9XT59NY8;
-				INFOPLIST_FILE = LoginScreen/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LoginScreen/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
